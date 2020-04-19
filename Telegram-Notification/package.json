@@ -1,0 +1,24 @@
+{
+  "name": "telegramnotifytask",
+  "version": "1.0.0",
+  "description": "Sending azure notification to Telegram",
+  "main": "task.js",
+  "scripts": {
+    "test": "echo \"Error: the tests not found!\" && exit 1"
+  },
+  "keywords": [
+    "Telegram",
+    "Azure-DevOps",
+    "Pipeline",
+    "Alert",
+    "Notification"
+  ],
+  "author": "Mohammad Varmazyar",
+  "license": "MIT",
+  "dependencies": {
+    "https-proxy-agent": "^2.2.1",
+    "telegraf": "^3.20.0",
+    "vso-task-lib": "^0.5.5",
+    "vsts-task-lib": "^2.4.0"
+  }
+}

@@ -1,0 +1,61 @@
+{
+    "manifestVersion": 1,
+    "id": "tg-notify-extension",
+    "name": "Telegram Notification",
+    "version": "0.1.1",
+    "publisher": "MohammadVarmazyar",
+    "description": "Send Azure DevOps triggers and notifications to telegram",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "galleryFlags": [
+        "Public"
+    ],
+    "tags": [ "build", "release", "telegram", "bot", "messages", "notification" ],
+    "icons": {
+        "default": "img/icon.png"
+    },
+    "scopes": [
+        "vso.work"
+    ],
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "branding": {
+        "color": "rgb(4, 4, 5)",
+        "theme": "dark"
+    },
+    "content": {
+        "details": {
+            "path": "readme.md"
+        },
+        "license": {
+            "path": "LICENSE.md"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/mrvarmazyar/azure-devops-telegram"
+    },
+    "files": [ 
+        {
+            "path": "Telegram-Notification",
+            "addressable": true
+        }
+    ],
+    "contributions": [
+        {
+            "id": "sample-telegram-task",
+            "type": "ms.vss-distributed-task.task",
+            "description": "Sending azure notification to Telegram",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "Telegram-Notification"
+            }
+        }
+    ]
+}
