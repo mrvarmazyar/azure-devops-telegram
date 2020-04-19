@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "tg-notify-extension",
     "name": "Telegram Notification",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publisher": "MohammadVarmazyar",
     "description": "Send Azure DevOps triggers and notifications to telegram",
     "targets": [

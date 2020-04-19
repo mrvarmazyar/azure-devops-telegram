@@ -16,9 +16,10 @@
   "author": "Mohammad Varmazyar",
   "license": "MIT",
   "dependencies": {
+    "azure-pipelines-task-lib": "^2.9.3",
     "https-proxy-agent": "^2.2.4",
-    "telegraf": "^3.20.0",
+    "telegraf": "^3.37.0",
     "vso-task-lib": "^0.5.5",
-    "vsts-task-lib": "^2.4.0"
+    "vsts-task-lib": "^2.7.0"
   }
 }
